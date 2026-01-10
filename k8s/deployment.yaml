@@ -16,9 +16,9 @@ spec:
     spec:
       containers:
         - name: python-demo
-          image: 745404748905.dkr.ecr.ap-southeast-1.amazonaws.com/python-eks-demo:latest
+          image: IMAGE_PLACEHOLDER
           ports:
-            - containerPort: 8080
+            - containerPort: 5000
           env:
             - name: ENV
               value: "test"
